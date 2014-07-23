@@ -32,5 +32,7 @@ public class Ogrenci {
     public void ogrenciYazdir(){
         System.out.println("ad: " + ad + " no : " + ogrenciNo + " vize: " + vize + "final :" + finall);
     }
-    
+    public double ogrenciOrtalama() {
+        return 0.4*vize+0.6*finall;
+    }
 }

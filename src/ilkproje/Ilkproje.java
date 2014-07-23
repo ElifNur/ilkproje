@@ -20,21 +20,22 @@ public class Ilkproje {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Ogrenci ogrenci1 = new Ogrenci(1,"elif nur ispirli", 51, 100);
-        Ogrenci ogrenci2 = new Ogrenci();
-        ogrenci1.ogrenciYazdir();
-        System.out.println("------");
-        ogrenci2.ogrenciYazdir();
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Ogrenci Noyu girin");
-        ogrenci2.ogrenciNo = scanner.nextInt();
-        System.out.println("Ogrenci Adını girin");
-        ogrenci2.ad = scanner.nextLine();
-        ogrenci2.vize = scanner.nextDouble();
-        ogrenci2.finall = scanner.nextDouble();
+//        Ogrenci ogrenci1 = new Ogrenci(1,"elif nur ispirli", 51, 100);
+//        Ogrenci ogrenci2 = new Ogrenci();
+//        ogrenci1.ogrenciYazdir();
+//        System.out.println("------");
+//        ogrenci2.ogrenciYazdir();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Ogrenci Noyu girin");
+//        ogrenci2.ogrenciNo = scanner.nextInt();
+//        System.out.println("Ogrenci Adını girin");
+//        ogrenci2.ad = scanner.nextLine();
+//        ogrenci2.vize = scanner.nextDouble();
+//        ogrenci2.finall = scanner.nextDouble();
+//        
+//        System.out.println("---------------------");
+//        ogrenci2.ogrenciYazdir();
         
-        System.out.println("---------------------");
-        ogrenci2.ogrenciYazdir();
     }
     
 }
