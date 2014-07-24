@@ -10,6 +10,10 @@ package market;
  *
  * @author elifnur
  */
-public class BilMal {
+public class BilMal extends Urun {
+    String tur;
+    String giristipi;
+    String renk;
+    
     
 }

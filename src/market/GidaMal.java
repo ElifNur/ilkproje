@@ -21,4 +21,5 @@ public class GidaMal extends Urun {
     public int SKTfark(){
         return 2014-tarih;
     }
+    
 }
